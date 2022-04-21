@@ -1,0 +1,56 @@
+.inner-header{
+    height: 70px;
+    background-color: rgb(0, 0, 0);
+}
+
+.logo-container h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    float: left;
+    padding-left: 30px;
+    color: rgb(255, 255, 255);
+}
+
+.navigation{
+    float: right;
+    font-size: 20px;
+}
+
+.navigation a{
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+    background-color: #101010;
+}
+ 
+.navigation a li{
+    vertical-align: middle;
+    display: table-cell;
+    font-size: 20px;
+    color: white;
+}
+
+.navigation a:hover{
+    background-color: gray;
+    color: #101010;
+}
+
+.content{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.content h2{
+    padding-left: 40px;
+    font-size: 35px;
+}
+
+.content p{
+    line-height: 2;
+    font-size: 25px;
+}
+
+.content img{
+    float: left;
+    padding-left: 20px;
+    padding-right: 40px;
+}
